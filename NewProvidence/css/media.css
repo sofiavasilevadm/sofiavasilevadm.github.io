@@ -1,0 +1,398 @@
+@media screen and (max-width: 1199px) {
+	.menu-info__item-link, .menu__item-link {
+    	font-size: 15px;
+    }
+    .information__btn{
+    	padding: 10px 20px 10px 22px;
+    	margin-bottom: 0;
+    	margin-bottom: 100px;
+    }
+    .slider__phone-img {
+    	left: 273px;
+    }
+    .btn-js {
+    	padding: 5px 16px 10px;
+    }
+    .plan-active {
+    	width: 275px;
+    }
+    .slider__phone-img {
+    	display: block;
+	    left: 50%;
+	    margin-left: -228px;
+    }
+    .slick-slide img {
+	    display: block;
+	    margin: 0 auto;
+	    float: none;
+	}
+}
+@media screen and (max-width: 1023px) {
+	body{
+		font-size: 18px;
+	}
+	h1{
+		font-size: 50px;
+	}
+	h2 {
+    	font-size: 41px;
+	}
+	.menu, .menu-info{
+		display: none;
+	}
+	.hidden-menu{
+		margin-left: 70px;
+	}
+	.humburger-menu__item{
+	    float: left;
+	    margin-top: 30px;
+	}
+	.offer__btn {
+    	margin-top: 25px;
+    }
+    .item__title {
+    	font-size: 23px;
+    }
+    .info__img-first {
+    	top: 93px;
+    	left: -350px;
+	}
+	.information__btn {
+    	margin-right: 9px;
+    	margin-bottom: 200px;
+    }
+    .info__img-second {
+	    top: 0;
+	    right: -400px;
+	}
+	.slider__phone-img {
+    	left: 160px;
+	}
+	.choose{
+		text-align: center;
+	}
+	.choose__text-title {
+	    margin-top: 50px;
+	    text-align: center;
+	}
+	.button-js {
+    	margin: 15px auto 0;
+	}
+	.plan-active {
+    	width: 275px;
+	}
+	.non-padding {
+    	padding: 28px 0;
+    	margin-top: 20px;
+	}
+	.contacts__logo {
+		float: none;
+    	margin: 0 auto;
+	}
+	.contacts{
+		text-align: center;
+	}
+	.links-info{
+		margin-top: 40px;
+		text-align: center;
+	}
+	.slick-slide img {
+	    float: none;
+	    margin: 0 auto;
+	}
+	.slider__phone-img {
+	    left: 50%;
+	    margin-left: -228px;
+	}
+
+
+}
+@media screen and (max-width: 991px) {
+	.plan-active {
+    	width: 375px;
+	}
+}
+@media screen and (max-width: 768px) {
+	body{
+		font-size: 15px;
+	}
+	h1 {
+    font-size: 38px;
+	}
+	h2{
+		text-align: center;
+	}
+	.menu, .menu-info{
+		display: none;
+	}
+	.hidden-menu{
+		margin-left: 70px;
+	}
+	#advantages {
+    	padding: 59px 0;
+    }
+	.item {
+    	margin-top: 20px;
+    }
+	.item__text {
+    	font-size: 15px;
+	}
+	.humburger-menu__item{
+	    float: left;
+	    margin-top: 30px;
+	}
+	.offer__btn {
+    	margin-top: 10px;
+    }
+    .item__title {
+    	font-size: 23px;
+    }
+    .info__img-first {
+    	top: 153px;
+   		left: -299px;
+	}
+	.information__btn {
+    	margin-bottom: 350px;
+    	margin-right: 6px;
+	}
+	.info__img-second {
+	    top: 10px;
+	    right: -440px;
+	}
+	.info__img-first, .info__img-second{
+		display: none;
+	}
+	.slider__phone-img {
+    	display: block;
+	    left: 50%;
+	    margin-left: -228px;
+    }
+    .slick-slide img {
+	    display: block;
+	    margin: 0 auto;
+	    float: none;
+	}
+    .choose{
+    	text-align: center;
+    }
+    .button-js{
+    	margin: 17px auto 0;
+    }
+    .plan-active {
+    	width: 100%;
+    	margin-top: -8px;
+    	min-height: 506px;
+    }
+    #info {
+    	padding: 0;
+    }
+    .information__text, .item__text{
+    	text-align: center;
+    }
+    .plan {
+    	margin-top: 11px;
+    	padding: 54px 30px 21px;
+    }
+    .information {
+    	padding-bottom: 55px;
+	}
+	.information__btn {
+    	margin-bottom: 0;
+	}
+	.information__intro{
+		text-align: center;
+	}
+	.information__link {
+	    float: none;
+	    display: block;
+	    margin: 20px auto;
+	    text-align: center;
+	}
+    .contacts {
+	    text-align: center;
+	}
+	.contacts__logo {
+	  	float: none;
+	    margin: 0 auto;
+	}
+	.links-info {
+    	text-align: center;
+	}
+	.plan{
+   		display: none;
+   	}
+   	.plan-active{
+   		display: block;
+   		box-shadow: none;
+   	}
+   	.non-padding {
+    	padding: 28px 0 533px;
+	}
+	.choose__offer, .visit-text {
+    	font-size: 10px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.offer__title {
+   		margin-top: 76px;
+   		line-height: 42px;
+	}
+	.form__btn {
+	    padding: 8px 9px;
+    	font-size: 12px;
+    }
+}
+@media screen and (max-width: 359px) {
+	.slider__phone-img {
+    	top: 222px;
+	}
+	.form__btn{
+		padding: 8px 9px;
+    	font-size: 12px;
+	}
+}
+@media screen and (max-width: 320px) {
+	body{
+		font-size: 16px;
+	}
+	h1 {
+    font-size: 33px;
+    line-height: 46px;
+	}
+	h2 {
+    font-size: 28px;
+    text-align: center;
+	}
+	.menu, .menu-info{
+		display: none;
+	}
+	.logo{
+		margin-bottom: 20px;
+	}
+	.hidden-menu-active{
+		text-align: center;
+	}
+	.offer__title {
+    	margin-top: 60px;
+	}
+	.offer__text {
+	    margin: 0 auto;
+	    margin-top: 32px;
+	    width: 100%;
+	    padding: 0 15px;
+	    font-size: 15px;
+	}
+	.offer__btn {
+    	margin-top: 40px;
+	}
+	#advantages {
+    	padding: 50px 0;
+	}
+	.item {
+	    padding: 0 20px;
+	    margin-top: 40px;
+	}
+	#info {
+    	padding-top: 0;
+	}
+	.info__img-first, .info__img-second{
+		display: none;
+	}
+	.information__btn{
+		margin-bottom: 0;
+	}
+	.info-title-second {
+    	margin-top: 20px;
+    }
+    .information__btn {
+   		margin-top: 15px;
+    	padding: 10px 20px 10px 28px;
+    }
+    .information__intro{
+    	text-align: center;
+    }
+    .information__link {
+    	margin-right: 13px;
+    }
+    .information {
+    	padding-bottom: 0;
+	}
+	.phone__slide-img {
+	    margin-right: 0;
+	    box-shadow: none;
+	}
+	.phone-slick {
+    	padding-bottom: 0;
+	}
+	.promo__form, .subscribe__form { 
+		margin: 0; 
+	}
+	.form__btn {
+    	padding: 8px 21px 8px 10px;
+    	font-size: 14px;
+    }
+    .button-js {
+   		width: 81%;
+   	}
+   	.plan{
+   		display: none;
+   	}
+   	.plan-active{
+   		display: block;
+   		box-shadow: none;
+   	}
+   	.non-padding {
+    	padding: 28px 0 533px;
+	}
+	#choose-plan {
+    	padding: 162px 0 0;
+    }
+    .contacts__logo {
+	    float: none;
+	    margin: 0 auto;
+	}
+	.contacts__text {
+	    padding: 0 20px;
+	    text-align: center;
+	}
+	.contacts .promo__btn {
+    	margin-left: 91px;
+    }
+    .icon {
+    	margin-left: 50px;
+	}
+	.links-info__link, .links-info__link:focus {
+    	font-size: 13px;
+    }
+    .links-info {
+    	margin-top: 20px;
+    	padding-left: 5px;
+    }
+    .links-info__title {
+    	font-size: 11px;
+	}
+	.footer-logo__text {
+    	margin-top: 20px;
+    }
+    .footer-logo {
+    	margin-top: 16px;
+    }
+    .visit-text {
+    	font-size: 14px;
+    	text-align: center;
+    }
+    .slider__phone-img {
+    	top: 172px;
+	}
+	#phone-slider .slick-slide {
+    	padding-bottom: 170px;
+    }
+    .visit-text {
+    	font-size: 11px;
+    }
+    .footer-logo__text {
+    	margin-top: -20px;
+    	float: right;
+    }
+}
+}
