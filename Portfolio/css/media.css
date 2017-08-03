@@ -1,0 +1,288 @@
+@media screen and (max-width: 940px) {
+	.container{
+		width: 609px;
+		max-width: 940px;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.contacts{
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding-top: 0;
+	}
+	.grant, .contacts-info{
+		margin-left: 0;
+		width: 100%;
+	}
+	.contacts-info{
+		float: right;
+	}
+	.navigation{
+		padding-top: 0;
+		padding-left: 0;
+		width: 371px;
+		margin: 0 auto;
+		float: none;
+	}
+	.header-title {
+    	top: 56%;
+	}
+	.point{
+		bottom: 3%;
+	}
+	.about{
+		width: 100%;
+	}
+	.skill-item{
+		width: 46%;
+	}
+	.skill-item__text {
+    	padding-top: 57px;
+	}
+	.item{
+		margin-right: 0;
+  		width: 33%;
+  		margin-bottom: 32px;
+	}
+	.item__numbers {
+    	left: 29px;
+	}
+	.gallery-item{
+		margin-right: 0;
+		width:303px;
+	}
+	.gallery-item:last-child {
+    	margin-left: 155px;
+	}
+
+	.profile__text {
+    	padding-top: 6px;
+	}
+}
+@media screen and (max-width: 609px) {
+	.container{
+		width: 90%;
+	}
+	.logo {
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.contacts{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.navigation{
+		padding-left: 0;
+		width: 364px;
+		margin: 0 auto;
+		float: none;
+	}
+	.navigation__item:last-child {
+    padding-right: 0;
+	}
+	.main-title {
+    font-size: 31px;
+	}
+	.header-text {
+    font-size: 21px;
+	}
+	.point{
+		left: 55%;
+	}
+	.point-row{
+		padding-left: 3px;
+	}
+	.about {
+    	width: 100%;
+	}
+
+	.grant, .contacts-info{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.item {
+	    float: none;
+	    width: 33%;
+	    margin: 0 auto;
+	    margin-bottom: 0px;
+	    margin-bottom: 32px;
+	}
+	.item__numbers {
+    	float: none;
+    	margin-left: 52px;
+    	left: 0;
+
+	}
+	.item:last-child {
+    	margin-right: auto;
+	}
+
+	.item__text {
+    	margin-top: 27px;
+	}
+	.links {
+		width: 38%;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		margin-top: 20px;
+
+    }
+	.profile{
+		float: none;
+		padding-left: 0px;
+		text-align: center;
+    	margin: 0 auto;
+    	padding-top: 0;
+	}
+	.profile__text {
+    	float: none;
+	}
+	.gallery-item, .gallery-item:last-child {
+    	float: none;
+		margin: 0 auto;
+		text-align: center;
+
+	}
+	.skill-item__text {
+   		padding-left: 1%;
+   		font-size: 13px;
+	}
+	.skill-item {
+   		float: left;
+    	width: 45%;
+    	margin-right: 0;
+	}
+	.skill-item:last-child {
+   		width: 45%;
+	}
+}
+@media screen and (max-width: 590px) {
+	.item__numbers {
+    	margin-left: 51px;
+    }
+
+}
+@media screen and (max-width: 452px) {
+	.item {
+    	width: 100%;
+    	margin: 0 auto;
+	}
+	.item__numbers {
+    	left: 84px;
+	}
+	.item__text {
+    	padding-right: 0;
+    	text-align: center;
+    }
+}
+@media screen and (max-width: 425px) {
+	.item__numbers {
+    	left: 104px;
+	}
+}
+@media screen and (max-width: 408px) {
+	.container{
+		max-width: 408px;
+	}
+	.main-title {
+    	font-size: 28px;
+    	padding-bottom: 0;
+	}	
+
+	.logo {
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.contacts{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.navigation{
+		padding-left: 0;
+		width: 364px;
+		margin: 0 auto;
+		float: none;
+	}
+	.navigation__item:last-child {
+    padding-right: 0;
+	}
+
+	.header-title {
+    	top: 52%;
+	}
+	.navigation__item {
+    	padding-right: 12px;
+	}
+	.item {
+    	width: 100%;
+    	margin: 0 auto;
+	}
+	.item__numbers {
+    	left: 84px;
+	}
+	.item__text {
+    	padding-right: 0;
+    	text-align: center;
+    }
+    .contacts-info {
+    	margin-top: 70px;
+	}
+	.grant, .contacts-info, .skills, .person__title, .about__title, .gallery {
+    	text-align: center;
+	}
+	.point {
+   		top: 84%;
+	}
+	.links {
+		float: none;
+   		width: 70%;
+    	text-align: center;
+    	margin: 0 auto;
+    }
+	.skill-item {
+		margin-right: 0px;
+    	width: 100%;
+	}
+	.skill-img{
+		left: 50px;
+	}
+	.skill-item__text {
+    	padding-left: 27%;
+    	font-size: 12px;
+	}
+	.skill-item:last-child {
+   		width: 100%;
+	}
+	.gallery-item {
+	    margin: 0 auto;
+	    width: auto;
+	    float: none;
+	}
+	.gallery-item:last-child{
+		margin-left:0;
+	}
+	.profile {
+    	margin-top: 30px;
+	}
+
+}	
+
+@media screen and (max-width: 375px) {
+	.item__numbers {
+    left: 73px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.item__numbers {
+    left: 57px;
+	}
+}

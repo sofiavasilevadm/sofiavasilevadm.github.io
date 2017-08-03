@@ -1,0 +1,357 @@
+
+body{
+	margin: 0 auto;
+	font-family: Natasha, Arial, sans-serif;
+}
+.container {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+ul{
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+}
+li{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------ Fonts Style ------ */
+
+
+h1, h2, h3, p, a{
+	margin:0;
+}
+.logo__text, .logo__text__deco, .navigation__list, .contacts__mail,
+.header-text, .about__text, .item__number, .item__text, .links__link,
+.profile__text, .skill-img__number, .skill-item__text, .gallery-hover__text, .gallery-hover__link, .gallery-item__link
+.sync__text{
+	font-family: 'Museo Sans Cyrl';
+}
+
+.logo__text, .logo__text__deco, .navigation__list, .contacts__mail,
+.header-text, .main-title, .gallery-hover__text, .gallery-hover__link, .gallery-item__link, .point__row{
+	color: #fff;
+}
+.person__title, .about__title, .about__text, .grant__title, .contacts-info__title, .item__text,
+.profile__text, .skills__title, .skill-item__text, .gallery__title, .sync__text{
+	color: #22241b;
+}
+.item__number, .links__link, .skill-img__number{
+	color:#204d15;
+}
+.logo__text, .logo__text__deco, .navigation__list, .main-title, .header-text,.person__title,
+.grant__title, .contacts-info__title, .item__number, .item__text, .skills__title, .skill-img__number,
+.skill-item__text, .gallery__title, .gallery-hover__text, .sync__text, .gallery-item__link, .about__title
+{
+	text-transform: uppercase;
+}
+.logo__text, .logo__text__deco, .navigation__list, .contacts__mail, .about__text, .item__text{
+	line-height: 48px;
+}
+.main-title, .person__title, .about__title, .grant__title, .contacts-info__title, .skills__title,
+.gallery__title, .header-text, .item__number, .skill-img__number, .links__link, .profile__text, .skill-item__text, .gallery-hover__text{
+	line-height: 55px;
+}
+.logo__text, .header-text, .item__number, .skill-img__number, .item__text, .links__link{
+	font-weight: 100;
+}
+.contacts__mail, .about__text, .profile__text, .gallery-hover__link, .sync__text, .gallery-item__link{
+	font-weight: 300;
+}
+.logo__text__deco, .navigation__list, .skill-item__text, .gallery-hover__text, .gallery-item__link{
+	font-weight: 900;
+}
+.logo__text, .logo__text__deco, .navigation__list, .contacts__mail,
+.header-text, .item__number, .links__link,
+.profile__text, .skill-img__number, .skill-item__text,
+.sync__text, .main-title, .person__title, .about__title, .grant__title, .contacts-info__title, .skills__title,
+.gallery__title, .point__row{
+	letter-spacing: 0.12em;
+}
+.about__text, .item__text, .gallery-hover__text, .gallery-hover__link, .gallery-item__link{
+	letter-spacing: 0.02em;
+}
+.logo__text, .logo__text__deco{
+	font-size: 17px;
+}
+.navigation__list, .about__text, .skill-item__text, .gallery-hover__text, .gallery-item__link{
+	font-size: 15px;
+}
+.contacts__mail, .gallery-hover__link, .skill-img__number{
+	font-size: 13px;
+}
+.main-title{
+	font-size: 49px;
+}
+.header-text{
+	font-size: 29px;
+}
+.person__title, .skills__title, .gallery__title{
+	font-size: 37px;
+}
+.about__title, .grant__title, .contacts-info__title{
+	font-size: 22px;
+	opacity: 0.5;
+}
+.about__text{
+	line-height: 27px;
+	margin-bottom: 27px;
+}
+.item__number{
+	font-size: 20px;
+}
+.item__text{
+	font-size: 12px;
+	line-height: 18px;
+}
+.links__link, .profile__text{
+	font-size: 14px;
+}
+.profile__text{
+	font-style: italic;
+}
+.sync__text{
+	font-size: 11px;
+	letter-spacing: 0.14em;
+}
+.point__row{
+	font-family: 'Arial';
+	font-size: 18px;
+}
+
+
+/* ------ Header ------- */
+.main-header .container{
+	height: 100vh;
+	max-height: 846px;
+}
+.main-header{
+	background: url(../img/background.jpg) no-repeat center top;
+}
+.logo{
+	float: left;
+    padding-top: 39px;
+}   
+.logo a, .contacts a{
+	text-decoration: none;
+}
+.navigation{
+	float: left;
+    padding-left: 175px;
+    padding-top: 38px;
+}
+.navigation__item{
+	padding-right: 39px; 
+}
+.contacts{
+    float: right;
+    padding-top: 39px;
+}
+.header-title{
+	position: absolute;
+    left: 0;
+    top: 41%;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-title{
+	padding-bottom: 16px;
+}
+.point{
+	float: left;
+	margin: 0 auto;
+	height: 37px;
+	width: 39px;
+	border: 1px solid white;
+	border-radius: 30px;
+	text-align: center;
+	position: absolute;
+	bottom: 10%;
+	left: 51%;
+	margin-left: -39px;
+
+}
+.point__row{
+	font-family: 'Arial';
+    font-size: 18px;
+    text-align: center;
+    padding-top: 6px;
+	padding-left: 3.5px;
+}
+
+/* ------ Person ------- */
+.person{
+	    margin-bottom: 65px
+}
+.person__title{
+	padding-top: 87px;
+    padding-bottom: 69px;
+}
+.about{
+	float: left;
+	width: 434px;
+}
+.about__title{
+	padding-bottom: 35px;
+}
+.grant, .contacts-info{
+	float: left;
+    margin-left: 44px;
+}
+.item{
+	float: left;
+    text-align: center;
+    width: 140px;
+    margin-right: 20px;
+    margin-bottom: 63px;
+}
+.item:last-child{
+	margin-right:0px;
+}
+.item__numbers{
+	float: left;
+	position: relative;
+    width: 70px;
+    height: 70px;
+    margin-top: 57px;
+    margin-left: 35px;
+    transform: rotate(45deg);
+    border: 1px solid #3e6534;
+}
+.item__numbers:after{
+	content: '';
+	position: absolute;
+	display: block;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #dbe1d7;
+    top: 7px;
+	left: 7px;
+}
+
+.item__number{
+	transform: rotate(-45deg);
+    padding-top: 10px;
+}
+.item__text{
+	margin-top: 167px;
+    text-align: center;
+}
+.contacts-info__title{
+	margin-bottom: 30px;
+}
+.links{
+	float: left;
+    width: 166px;
+    padding-left: 3px;
+}
+.links__link{
+	display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #3e6534;
+    line-height: 1.8;
+}
+.profile{
+	float: right;
+	padding-left: 43px;
+    padding-top: 9px;
+}
+.profile__text{
+	float: right;
+    letter-spacing: 0.02em;
+    padding-left: 19px;
+    padding-top: 22px;
+
+}
+/* ------ skills ------- */
+.skills{
+	margin-bottom: 84px;
+}
+.skill-item{
+	float: left;
+	width: 220px;
+	margin-right:20px;
+}
+.skill-item:last-child{
+	width: 220px;
+	margin-right: 0;
+}
+.skill-img{
+	float: left;
+	position: relative;
+    width: 60px;
+    height: 60px;
+    margin-top: 53px;
+    border-radius: 30px;
+    border: 1px solid #3e6534;
+}
+.skill-img:after{
+	content: '';
+	display: block;
+	position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #dbe1d7;
+    top: 4px;
+	left: 4px;
+}
+.skill-img__number{
+	text-align: center;
+    padding-top: 5px;
+}
+.skill-item__text{
+	float: left;
+    padding-top: 58px;
+    padding-left: 26px;
+}
+
+.gallery{
+	margin-bottom: 83px;
+}
+.gallery__title{
+	margin-bottom: 52px;
+}
+.gallery-item{
+	position: relative;
+	float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+.gallery-item:last-child{
+    margin-right: 0px;
+}
+.gallery-hover__text {
+    margin-top: 115px;
+}
+
+.gallery-hover{
+	display: none;
+    color: #fff;
+    position: absolute;
+    text-decoration: none;
+    background-color: rgba(2, 2, 2, 0.3);
+    margin-top: -303px;
+    width: 300px;
+    top: 303px;
+    height: 299px;
+    text-align: center;
+    cursor: pointer;
+}
+.gallery-item:hover .gallery-hover{
+	display: block;
+}
+
