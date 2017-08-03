@@ -1,0 +1,66 @@
+/* --- Планшеты 728-960px --- */
+@media screen and (max-width: 960px) {
+	.header__container,
+	.about_me__container,
+	.advantages__container,
+	.footer__container
+	 {
+		width: 90%;
+	}
+	.skills__item__intro {
+		display: none;
+	}
+	.about_me__mission {
+		width: 50%;
+	}
+	.about_me__skills {
+		width: 45%;
+	}
+	.advantages__item {
+    	width: 31%;
+    	margin-right: 3%;
+	}
+	.advantages__item:nth-child(3) {
+		float: right;
+	}
+	.footer__content__item {
+	    margin-right: 1%;
+	    width: 33%;
+	}
+	.footer__content__item:nth-child(2) {
+	    width: 23%;
+	}
+	.footer__content__item:nth-child(3) {
+	    width: 40%;
+	}
+}
+
+/* --- Мобильные 0-728px --- */
+@media screen and (max-width: 728px) {
+	.about_me__mission {
+	    width: 100%;
+	    float: none;
+	}
+	.about_me__skills {
+	    width: 100%;
+	    float: none;
+	    margin-top: 50px;
+	}
+	.advantages__item {
+		width: 100%;
+		float: none;
+		margin-bottom: 40px;
+	}
+	.footer__content__item:nth-child(2) {
+		display: none;
+	}
+	.footer__content__item {
+		width: 100%;
+		margin-right: 0;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footer__content__item:nth-child(3) {
+		width: 100%;
+	}
+}

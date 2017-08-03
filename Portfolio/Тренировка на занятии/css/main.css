@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+	font-family: Natasha, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Настольные Desktop бесконечность-1024px */
+
+#first {
+	background: #24271b;
+	color: #fff;
+	height: 1000px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+article {
+	width: 940px;
+	margin: 0px auto;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.icon {
+	width: 200px;
+	height: 200px;
+	border-radius: 3px;
+	background: #fff;
+	margin-right: 20px;
+	float: left;
+	background: url(../img/first_bg.jpg);
+	-moz-transition: all 0.5s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+}
+
+.text {
+	opacity: 0;
+	-moz-transition: all 0.5s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    height: 200px;
+}
+
+.icon:hover .text {
+	opacity: 1;
+}
+
+/* Планшеты Tablets 1024px-768px */
+
+@media screen and (max-width: 1024px) {
+	article {
+		width: 90%;
+	}
+	.icon {
+		width: 50%;
+		margin-right: 0px;
+	}
+}
+
+/* Мобильные Mobile 768px-0px */
+
+@media screen and (max-width: 768px) {
+	.icon {
+		width: 100%;
+		height: auto;
+		color: black;
+		border-radius: 3px;
+		float: none;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
