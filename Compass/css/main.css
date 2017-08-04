@@ -196,15 +196,15 @@ a, a:hover, a:active{
 	min-height: 360px;
 	margin-bottom: 95px;
 }
-.item__img-wrap::after {
+.item__main-wrap::after {
     content: '';
     position: absolute;
     display: block;
     background: #c6c6c6;
     width: 40px;
     height: 1px;
-    top: 145px;
-    left: 26%;
+    top: 195px;
+    left: 44%;
 }
 .item__main-wrap {
     display: table;
@@ -244,6 +244,7 @@ a, a:hover, a:active{
 
 #info{
 	background: url(../img/background_2.jpg) repeat center top;
+	background: #233d53;
 	padding-top: 86px;
 	padding-bottom: 99px;
 	color: #fff;
