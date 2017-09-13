@@ -1,9 +1,6 @@
 body{
 	margin: 0 auto;
-<<<<<<< HEAD
 	font-family: 'Arsenal', sans-serif;
-=======
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
 }
 .container {
   position: relative;
@@ -37,7 +34,6 @@ li{
     float: left;
     width: 33%;
     text-align: center;
-<<<<<<< HEAD
     background: #ffffcc;
 }
 
@@ -46,23 +42,14 @@ li{
     padding: 15px;
     width: 100%;
     display: block;
-=======
-}
-.navigation__link{
-    font-size: 26px;
-    padding: 10px;
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
     text-transform: uppercase;
     text-decoration: none;
     color: #3caa3c;
 }
-<<<<<<< HEAD
 .navigation__link:hover{
     color: #ffffcc;
     background: #3caa3c;
 }
-=======
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
 .red{
     color: red;
 }
@@ -71,12 +58,7 @@ li{
   width: 1000px; 
   height: 600px; 
   margin: 50px auto;
-<<<<<<< HEAD
   background: white;
-=======
-  background: white; 
-  box-shadow: 0 0 3px #ccc; 
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
   } 
 
 .circle-menu ul {
@@ -121,7 +103,6 @@ li{
 .circle-menu li:nth-child(1)  {
   background-color: #f75973;
 }
-<<<<<<< HEAD
 .circle-menu li:nth-child(1):after{
   content: '';
   position: absolute;
@@ -164,14 +145,6 @@ li{
   transform: rotate(-157deg) skew(23deg);
    background: url(../img/icon-hamburger.png);
 }
-=======
-.circle-menu li:nth-child(2)  {
-  background-color: #aaf6f8;
-}
-.circle-menu li:nth-child(3)  {
-  background-color: #a0d952;
-}
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
 .circle-menu li:nth-child(1):hover { 
   background-color: #f52a4b;
 }
@@ -185,32 +158,20 @@ li{
   position: relative;
 }
 .submenu-list-second{
-<<<<<<< HEAD
   font-size: 18px;
-=======
-  font-size: 14px;
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
   position: absolute;
   top: 0px;
   left: 50%;
   margin-left: -145px;
 }
 .submenu-list-first{
-<<<<<<< HEAD
   font-size: 18px;
-=======
-  font-size: 14px;
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
   position: absolute;
   top: 360px;
   left: 20%;
 }
 .submenu-list-third{
-<<<<<<< HEAD
   font-size: 18px;
-=======
-  font-size: 14px;
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
   position: absolute;
   top: 356px;
   right: 27%;
@@ -263,7 +224,6 @@ li{
 }
 .opacity-item{
   opacity: 0.5;
-<<<<<<< HEAD
 }
 .main-menu__title{
   text-transform: uppercase;
@@ -294,6 +254,4 @@ li{
   text-align: center;
   padding: 20px 0 10px;
   background: #ffffcc;
-=======
->>>>>>> 97961847b436ccf43bd11fc781e700af7f7f4def
 }
